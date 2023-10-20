@@ -8,6 +8,8 @@ import iconThree from "../assets/images/icon03.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import About from "./About";
+import ServicesList from "../components/Services/ServicesList";
+import Featured from "./Featured";
 
 const Home = () => {
   return (
@@ -80,11 +82,6 @@ const Home = () => {
             <h2 className="heading text-center">
               Your Journey to Better Health, Simplified
             </h2>
-            <p className="text_para text-center">
-              Discover how our Doctor Appointment Booking application
-              streamlines the process of finding the right doctor, convenient
-              locations, and booking appointments, all in one place.
-            </p>
           </div>
           {/* cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt[55px]">
@@ -156,6 +153,23 @@ const Home = () => {
       {/* ====================================================================================== */}
       {/* Know about us section */}
       <About />
+      {/* ====================================================================================== */}
+      {/* Our services */}
+      <section>
+        <div className="container">
+          <div className="lg:w-[580px] mx-auto">
+            <p className="text-center text_para text-primaryColor font-[800] uppercase">
+              Our Services
+            </p>
+            <h2 className="heading text-center">Offers for you</h2>
+          </div>
+          {/* Services list */}
+          <ServicesList />
+        </div>
+      </section>
+      {/* ====================================================================================== */}
+      {/* Our featured Section */}
+      <Featured />
     </>
   );
 };

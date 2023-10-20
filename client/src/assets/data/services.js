@@ -1,38 +1,26 @@
 export const services = [
   {
-    name: "Cancer Care",
-    desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
-    bgColor: "rgba(254, 182, 13, .2)",
-    textColor: "#FEB60D",
+    name: "Facial Procedures",
+    desc: "Revitalize your appearance with our range of facial procedures. Our skilled cosmetic and reconstructive surgeons offer a variety of treatments to enhance your natural beauty, and address aging signs.",
   },
   {
     name: "Labor & Delivery",
-    desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
-    bgColor: "rgba(151, 113, 255, .2)",
-    textColor: "#9771FF",
+    desc: "Experience the joy of childbirth with the support of our expert obstetricians and dedicated maternity team. We offer comprehensive care to ensure the safety and well-being of both mother and child.",
   },
   {
     name: "Heart & Vascular",
-    desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
-    bgColor: "rgba(1, 181, 197, .2)",
-    textColor: "#01B5C5",
+    desc: "Trust your cardiovascular health to our team of experienced cardiologists and specialists. We provide a wide range of services, from preventive care to advanced cardiac treatments.",
   },
   {
     name: "Mental Health",
-    desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
-    bgColor: "rgba(1, 181, 197, .2)",
-    textColor: "#01B5C5",
+    desc: " Your mental health is just as important as your physical health. Our compassionate and skilled mental health professionals are here to support you in managing stress, anxiety & depression etc.",
   },
   {
     name: "Neurology",
-    desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
-    bgColor: "rgba(254, 182, 13, .2)",
-    textColor: "#FEB60D",
+    desc: "Our neurology experts are dedicated to diagnosing and treating a variety of neurological conditions. From headaches to seizures and complex disorders.",
   },
   {
     name: "Burn Treatment",
-    desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
-    bgColor: "rgba(151, 113, 255, .2)",
-    textColor: "#9771FF",
+    desc: " Our specialized burn treatment services are designed to provide immediate and long-term care for burn injuries.",
   },
 ];
