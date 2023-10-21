@@ -1,27 +1,27 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "How do I find a doctor using the app?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "To find a doctor, simply enter your location, medical specialty, or the doctor's name in the search bar. You can then browse through the list of available doctors and their profiles to make an informed choice.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "How can I book an appointment with a doctor?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "After selecting a doctor, click on the 'Book Appointment' button on their profile. Choose your preferred date and time, and follow the prompts to confirm your appointment.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "Can I change or cancel my appointment?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      " Yes, you can change or cancel your appointment. Go to the 'My Appointments' section in the app, select the appointment you wish to modify, and follow the instructions for rescheduling or canceling.",
   },
   {
-    question: "Can I visit your medical office?",
+    question: "Is my personal information secure when using the app?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      " Yes, we take your privacy and security seriously. We use advanced encryption and security measures to protect your personal information and ensure it remains confidential.",
   },
   {
-    question: "Does you provide urgent care?",
+    question: " How do I access my medical records through the app?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "You can access your medical records by logging into your patient account and navigating to the 'Medical Records' section. If your healthcare provider has shared your records, you'll find them there.",
   },
 ];
