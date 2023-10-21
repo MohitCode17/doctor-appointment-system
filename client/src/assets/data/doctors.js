@@ -1,6 +1,7 @@
-import doctorImg01 from "../images/doctor-img01.png";
-import doctorImg02 from "../images/doctor-img02.png";
-import doctorImg03 from "../images/doctor-img03.png";
+import doctor01 from "../images/doctor-1.webp";
+import doctor02 from "../images/doctor-2.webp";
+import doctor03 from "../images/doctor-3.webp";
+import doctor04 from "../images/doctor-4.webp";
 
 export const doctors = [
   {
@@ -9,7 +10,7 @@ export const doctors = [
     specialty: "Surgeon",
     avgRating: 4.8,
     totalRating: 272,
-    photo: doctorImg01,
+    photo: doctor01,
     totalPatients: 1500,
     hospital: "Mount Adora Hospital, Sylhet.",
   },
@@ -19,7 +20,7 @@ export const doctors = [
     specialty: "Neurologist",
     avgRating: 4.8,
     totalRating: 272,
-    photo: doctorImg02,
+    photo: doctor02,
     totalPatients: 1500,
     hospital: "Mount Adora Hospital, Sylhet.",
   },
@@ -29,7 +30,7 @@ export const doctors = [
     specialty: "Dermatologist",
     avgRating: 4.8,
     totalRating: 272,
-    photo: doctorImg03,
+    photo: doctor04,
     totalPatients: 1500,
     hospital: "Mount Adora Hospital, Sylhet.",
   },

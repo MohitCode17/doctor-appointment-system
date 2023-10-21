@@ -10,6 +10,7 @@ import { BsArrowRight } from "react-icons/bs";
 import About from "./About";
 import ServicesList from "../components/Services/ServicesList";
 import Featured from "./Featured";
+import DoctorsList from "../components/Doctors/DoctorsList";
 
 const Home = () => {
   return (
@@ -158,7 +159,7 @@ const Home = () => {
       <section>
         <div className="container">
           <div className="lg:w-[580px] mx-auto">
-            <p className="text-center text_para text-primaryColor font-[800] uppercase">
+            <p className="text-center text_para text-primaryColor font-[600] uppercase">
               Our Services
             </p>
             <h2 className="heading text-center">Offers for you</h2>
@@ -170,6 +171,20 @@ const Home = () => {
       {/* ====================================================================================== */}
       {/* Our featured Section */}
       <Featured />
+      {/* ====================================================================================== */}
+      {/* Our doctors list */}
+      <section>
+        <div className="container">
+          <div className="lg:w-[580px] mx-auto">
+            <p className="text-center text_para text-primaryColor font-[600] uppercase">
+              Our Team
+            </p>
+            <h2 className="heading text-center">Our Experts Doctor</h2>
+          </div>
+          {/* Services list */}
+          <DoctorsList />
+        </div>
+      </section>
     </>
   );
 };
