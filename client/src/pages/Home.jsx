@@ -13,6 +13,7 @@ import ServicesList from "../components/Services/ServicesList";
 import Featured from "./Featured";
 import DoctorsList from "../components/Doctors/DoctorsList";
 import FaqList from "../components/Faq/FaqList";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -200,6 +201,18 @@ const Home = () => {
               <FaqList />
             </div>
           </div>
+        </div>
+      </section>
+      {/* ====================================================================================== */}
+      {/* faq section */}
+      <section>
+        <div className="container">
+          <div className="lg:w-[580px] mx-auto">
+            <h2 className="heading text-center">
+              What our patients say about us..
+            </h2>
+          </div>
+          <Testimonials />
         </div>
       </section>
     </>
