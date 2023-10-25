@@ -49,7 +49,7 @@ const Footer = () => {
 
   const year = new Date().getFullYear();
   return (
-    <footer className="pt-10 pb-16 ">
+    <footer className="pt-10 pb-6">
       <div className="container">
         <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px]">
           <div>
