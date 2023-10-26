@@ -2,6 +2,7 @@ import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import { config } from "dotenv";
+import { connectDb } from "./db/connectDb.js";
 
 // .env configuration
 config();
@@ -24,5 +25,6 @@ app.get("/test", (req, res) => {
 });
 
 app.listen(port, () => {
+  connectDb();
   console.log(`Server is running on http://localhost:${port}`);
 });
