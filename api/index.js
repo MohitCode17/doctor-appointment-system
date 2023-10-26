@@ -3,6 +3,7 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 import { config } from "dotenv";
 import { connectDb } from "./db/connectDb.js";
+import authRoutes from "./routes/auth.routes.js";
 
 // .env configuration
 config();
@@ -18,6 +19,7 @@ app.use(
     origin: true,
   })
 );
+app.use("/api/v1/auth", authRoutes);
 
 // routes
 app.get("/test", (req, res) => {
