@@ -16,17 +16,19 @@ const DoctorSchema = new mongoose.Schema({
   },
   phone: {
     type: Number,
-    required: true,
   },
   photo: {
     type: String,
   },
   appointmentPrice: {
     type: Number,
-    required: true,
   },
   role: {
     type: String,
+  },
+  gender: {
+    type: String,
+    enum: ["male", "female", "other"],
   },
   specialization: { type: String },
   qualification: { type: Array },
