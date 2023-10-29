@@ -2,7 +2,7 @@ import User from "../models/UserSchema.js";
 import Doctor from "../models/DoctorSchema.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import { generateToken } from "../utils/authToken.js";
+import { generateToken } from "../utils/generateToken.js";
 
 // ---------------- Register controller ------------------
 export const register = async (req, res) => {

@@ -4,6 +4,8 @@ import cors from "cors";
 import { config } from "dotenv";
 import { connectDb } from "./db/connectDb.js";
 import authRoutes from "./routes/auth.routes.js";
+import userRoutes from "./routes/user.routes.js";
+import doctorRoutes from "./routes/doctor.routes.js";
 
 // .env configuration
 config();
@@ -20,6 +22,8 @@ app.use(
   })
 );
 app.use("/api/v1/auth", authRoutes);
+app.use("/api/v1/user", userRoutes);
+app.use("/api/v1/doctor", doctorRoutes);
 
 // routes
 app.get("/test", (req, res) => {
