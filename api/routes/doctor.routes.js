@@ -6,7 +6,12 @@ import {
   getSingleDoctor,
 } from "../controllers/doctor.controller.js";
 import { restrict, verifyToken } from "../utils/verifyToken.js";
+import reviewRoutes from "../routes/review.routes.js";
+
 const router = express.Router();
+
+// Nested routes: /doctor/doctorId/reviews
+router.use("/:doctorId/reviews", reviewRoutes);
 
 // --------------- Update Doctor Route -----------------
 router.put("/update/:id", verifyToken, restrict(["doctor"]), updateDoctor);
