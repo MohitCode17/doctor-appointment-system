@@ -10,7 +10,7 @@ const SignIn = () => {
         <form className="py-4 md:py-0 flex flex-col gap-5">
           <div>
             <input
-              type="text"
+              type="email"
               placeholder="Enter your email"
               name="email"
               className="w-full px-4 py-3 rounded-md border border-solid border-[#0066ff61] focus:outline-none focus:border-primaryColor text-textColor"
@@ -20,7 +20,7 @@ const SignIn = () => {
             <input
               type="password"
               placeholder="Enter your password"
-              name="email"
+              name="password"
               className="w-full px-4 py-3 rounded-md border border-solid border-[#0066ff61] focus:outline-none focus:border-primaryColor text-textColor"
             />
           </div>
